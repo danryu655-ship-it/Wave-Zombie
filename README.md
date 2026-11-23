@@ -9,14 +9,15 @@ item, dan sistem Guard.
 
 - **GitHub Pages (disarankan):** buka repo ini di Settings → Pages → pilih branch
   `main` dan folder `/ (root)`, lalu buka URL `https://danryu655-ship-it.github.io/wave-zombie/`.
-- **Lokal:** buka `index.html` di browser (butuh `assets.js` di folder yang sama —
-  semua gambar pixel-art ada di file itu).
+- **Lokal:** buka `index.html` di browser (butuh file `assets-1.js` s.d. `assets-11.js`
+  di folder yang sama — semua gambar pixel-art ada di file-file itu).
 
 ## Struktur
 
 - `index.html` — game lengkap (HTML + CSS + JS). Satu-satunya gambar yang masih
-  inline di file ini adalah background Mall awal; sisanya dimuat dari `assets.js`.
-- `assets.js` — 19 aset gambar pixel-art (webp, base64) sebagai `window.WZIMG`:
+  inline di file ini adalah background Mall awal; sisanya dimuat dari `assets-1.js`
+  s.d. `assets-11.js`.
+- `assets-1.js` … `assets-11.js` — 19 aset gambar pixel-art (webp, base64) sebagai `window.WZIMG`:
   5 hero (potret + sprite sheet), 3 zombie + 3 sprite sheet zombie, dan 3 background
   wilayah (Mall, Rumah Sakit, Kota Mati).
 - `README.md` — file ini.
